@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        @media (min-width: 576px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 60%;
+                color: red;
+                background-color: yellow;
+                font-size: 12px;
+            }
+            
+            img {
+                width: 80%;
+                height: auto;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                background-color: pink;
+                font-size: 16px;
+                color: gray;
+                width: 80%;
+            }
+        }
+
+        @media (min-width: 992px ) {
+            .container {
+                background-color: gray;
+                font-size: 18px;
+                color: black;
+                width: 100%;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Selamat Datang!!!</h1>
+        <p>tampilan akan berubah sesuai dengan ukuran layar</p>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.wKUIs6uAsOedv7XPhYpu9QHaEJ%26pid%3DApi&f=1&ipt=8b533f66c04370715fddbd925a7135e90f4fed6b0876a2f56f2a8b96b6c4dbee&ipo=images" alt="Benedetta">
+    </div>
+  
+</body>
+</html>
